@@ -14,8 +14,8 @@
       "ctrl-3": "workspace::ToggleBottomDock",
       "ctrl-4": "agent::ToggleFocus",
       "ctrl-5": "debug_panel::ToggleFocus",
-      "ctrl-6": "terminal_panel::ToggleFocus",
-      "ctrl-7": "git_panel::ToggleFocus",
+      "ctrl-7": "terminal_panel::ToggleFocus",
+      "ctrl-8": "git_panel::ToggleFocus"
     }
   },
 

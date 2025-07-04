@@ -29,6 +29,11 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Trash Panda Blacklight"
+    "dark": "Ayu Dark"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
   }
 }
