@@ -2829,8 +2829,8 @@
           "#e696a966"
         ],
         "background.appearance": "transparent",
-        "border": "#00000000",
-        "border.variant": "#00000000",
+        "border": "#585b70",
+        "border.variant": "#45475a",
         "border.focused": "#b7bdf8",
         "border.selected": "#c6a0f6",
         "border.transparent": "#a6da95",
