@@ -7,6 +7,21 @@
 // from the command palette.
 [
   {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-0": "git_panel::ToggleFocus",
+      "ctrl-1": "workspace::ToggleLeftDock",
+      "ctrl-2": "workspace::ToggleRightDock",
+      "ctrl-3": "workspace::ToggleBottomDock",
+      "ctrl-4": "terminal_panel::ToggleFocus",
+      "ctrl-5": "debug_panel::ToggleFocus",
+      "ctrl-7": "agent::ToggleFocus",
+      "ctrl-9": "git_panel::ToggleFocus",
+      "alt-g": ["debugger::Start", { "label": "debug tests" }]
+    }
+  },
+
+  {
     "context": "Editor && vim_mode == insert && !menu",
     "bindings": {
       // "j k": "vim::SwitchToNormalMode"
@@ -24,6 +39,61 @@
       "ctrl-o": "workspace::Open", // vim default: go back
       "ctrl-s": "workspace::Save", // vim default: show signature
       "ctrl-a": "editor::SelectAll" // vim default: increment
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      // Window Management
+      "space w v": "pane::SplitRight",
+      "space w s": "pane::SplitDown",
+      "space w d": ["pane::CloseAllItems", { "close_pinned": false }],
+
+      // Buffer (Tab) Management
+      "space b b": "file_finder::Toggle",
+      "space b d": ["pane::CloseActiveItem", { "close_pinned": false }],
+      "space b n": "pane::ActivateNextItem",
+      "space b p": "pane::ActivatePreviousItem",
+      "space b u": "pane::ReopenClosedItem",
+      "space b x": ["pane::CloseAllItems", { "close_pinned": false }],
+      "space b ctrl-d": ["pane::CloseInactiveItems", { "close_pinned": false }],
+
+      // Error Navigation
+      "space e l": "diagnostics::Deploy",
+      "space e n": "editor::GoToDiagnostic",
+      "space e p": "editor::GoToPreviousDiagnostic",
+      "space e x": "editor::Hover",
+
+      // File Operations
+      "space f /": "project_search::ToggleFocus",
+      "space f y y": "editor::CopyPath",
+      "space f R": "editor::Rename",
+      "space f r": "file_finder::Toggle",
+      "space f s": "pane::RevealInProjectPanel",
+
+      // Git
+      "space g c": "git_panel::ToggleFocus",
+
+      // Leader
+      "space '": "terminal_panel::ToggleFocus",
+
+      // Debug
+      "space d B": "debug_panel::ToggleFocus",
+      "space d b": "editor::ToggleBreakpoint",
+      "space d c": "debugger::Continue",
+      "space d D": "debugger::Start",
+      "space d d": "debugger::Start",
+      "space d n": "debugger::StepOver",
+      "space d o": "debugger::StepOut",
+      "space d s": "debugger::StepInto",
+
+      // Run
+      "space r c": ["task::Spawn", {"task_name": "Run Class"}],
+
+      // Refactoring
+      "space R a": "editor::ToggleCodeActions",
+      "space R i": "editor::OrganizeImports",
+      "space R c": "editor::Format"
     }
   },
 
