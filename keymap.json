@@ -9,15 +9,13 @@
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-0": "git_panel::ToggleFocus",
       "ctrl-1": "workspace::ToggleLeftDock",
       "ctrl-2": "workspace::ToggleRightDock",
       "ctrl-3": "workspace::ToggleBottomDock",
-      "ctrl-4": "terminal_panel::ToggleFocus",
+      "ctrl-4": "agent::ToggleFocus",
       "ctrl-5": "debug_panel::ToggleFocus",
-      "ctrl-7": "agent::ToggleFocus",
-      "ctrl-9": "git_panel::ToggleFocus",
-      "alt-g": ["debugger::Start", { "label": "debug tests" }]
+      "ctrl-6": "terminal_panel::ToggleFocus",
+      "ctrl-7": "git_panel::ToggleFocus",
     }
   },
 
@@ -88,7 +86,7 @@
       "space d s": "debugger::StepInto",
 
       // Run
-      "space r c": ["task::Spawn", {"task_name": "Run Class"}],
+      "space r c": ["task::Spawn", { "task_name": "Run Class" }],
 
       // Refactoring
       "space R a": "editor::ToggleCodeActions",
