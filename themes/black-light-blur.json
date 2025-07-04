@@ -20,7 +20,7 @@
         "tab.inactive_background": "#0305074d",
         "status_bar.background": "#030507f0",
         "editor.background": "#00000000",
-        "editor.gutter.background": "#0305074d",
+        "editor.gutter.background": "#00000000",
         "editor.active_line.background": "#41464a0d",
         "editor.highlighted_line.background": "#101B3D80",
         "editor.subheader.background": "#18285Cdd",
