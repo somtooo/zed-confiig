@@ -1,4 +1,5 @@
 {
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "Trash Panda Blacklight",
   "author": "Adapted from Jason Hulbert's Trash Panda Theme",
   "themes": [
@@ -8,7 +9,7 @@
       "style": {
         "background": "#0c0e10",
         "surface.background": "#030507",
-        "elevated_surface.background": "#41464a",
+        "elevated_surface.background": "#030507",
         "panel.background": "#0c0e10",
         "title_bar.background": "#030507",
         "title_bar.inactive_background": "#000000",
@@ -199,7 +200,31 @@
             "font_weight": 700
           },
           "keyword": {
-            "color": "#f44034"
+            "color": "#cba6f7"
+          },
+          "keyword.modifier": {
+            "color": "#cba6f7"
+          },
+          "keyword.type": {
+            "color": "#cba6f7"
+          },
+          "keyword.function": {
+            "color": "#cba6f7"
+          },
+          "keyword.operator": {
+            "color": "#cba6f7"
+          },
+          "keyword.import": {
+            "color": "#cba6f7"
+          },
+          "keyword.repeat": {
+            "color": "#cba6f7"
+          },
+          "keyword.return": {
+            "color": "#cba6f7"
+          },
+          "keyword.conditional": {
+            "color": "#cba6f7"
           },
           "label": {
             "color": "#406bf4"
@@ -215,7 +240,7 @@
             "color": "#bd7df8"
           },
           "operator": {
-            "color": "#f44034"
+            "color": "#89dceb"
           },
           "predictive": {
             "color": "#5f656a",
@@ -240,7 +265,7 @@
             "color": "#b8babd"
           },
           "punctuation.list_marker": {
-            "color": "#f44034"
+            "color": "#94e2d5"
           },
           "punctuation.special": {
             "color": "#406bf4"
@@ -261,7 +286,7 @@
             "color": "#f482ec"
           },
           "tag": {
-            "color": "#f44034"
+            "color": "#89b4fa"
           },
           "text.literal": {
             "color": "#9cc46e"
@@ -274,13 +299,13 @@
             "color": "#ded15f"
           },
           "type.builtin": {
-            "color": "#f8a54c"
+            "color": "#cba6f7"
           },
           "variable": {
             "color": "#eeeeee"
           },
           "variable.special": {
-            "color": "#f482ec"
+            "color": "#f38ba8"
           },
           "variant": {
             "color": "#05c895"
