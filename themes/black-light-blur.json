@@ -8,8 +8,8 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
-        "background": "#0c0e10d7",
-        "surface.background": "#030507d0",
+        "background": "#000000d7",
+        "surface.background": "#000000d0",
         "elevated_surface.background": "#0a0a0a",
         "panel.background": "#00000000",
         "title_bar.background": "#030507f0",
