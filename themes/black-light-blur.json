@@ -8,9 +8,9 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
-        "background": "#0c0e10dd",
-        "surface.background": "#030507c0",
-        "elevated_surface.background": "#030507",
+        "background": "#0c0e10d7",
+        "surface.background": "#030507d0",
+        "elevated_surface.background": "#0a0a0a",
         "panel.background": "#00000000",
         "title_bar.background": "#030507f0",
         "title_bar.inactive_background": "#000000c0",
