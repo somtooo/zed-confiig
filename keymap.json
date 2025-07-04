@@ -10,8 +10,8 @@
     "context": "Workspace",
     "bindings": {
       "ctrl-1": "workspace::ToggleLeftDock",
-      "ctrl-2": "workspace::ToggleRightDock",
-      "ctrl-3": "workspace::ToggleBottomDock",
+      "ctrl-2": "workspace::ToggleBottomDock",
+      "ctrl-3": "workspace::ToggleRightDock",
       "ctrl-4": "agent::ToggleFocus",
       "ctrl-5": "debug_panel::ToggleFocus",
       "ctrl-7": "terminal_panel::ToggleFocus",

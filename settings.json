@@ -14,8 +14,7 @@
   },
   "agent": {
     "model_parameters": [],
-    "default_profile": "write",
-    "version": "2"
+    "default_profile": "write"
   },
   "vim_mode": true,
   "use_system_clipboard": true,
@@ -29,7 +28,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Ayu Dark"
+    "dark": "Trash Panda Blacklight"
   },
   "git": {
     "inline_blame": {
