@@ -7,17 +7,6 @@
 // from the command palette.
 [
   {
-    "context": "Workspace",
-    "bindings": {
-      "shift shift": "file_finder::Toggle",
-      "ctrl-1": "workspace::ToggleLeftDock",
-      "ctrl-2": "workspace::ToggleRightDock",
-      "ctrl-3": "workspace::ToggleBottomDock",
-      "alt-g": ["debugger::Start", { "label": "debug tests" }]
-    }
-  },
-
-  {
     "context": "Editor && vim_mode == insert && !menu",
     "bindings": {
       // "j k": "vim::SwitchToNormalMode"
