@@ -59,13 +59,19 @@
         "editor.invisible": "#2A344F",
         "editor.wrap_guide": "#2A344F",
         "editor.active_wrap_guide": "#445175",
+        "error": "#FF5370",
+        "error.background": "#FF537015",
+        "error.border": "#FF537080",
+        "warning": "#FFCB6B",
+        "warning.background": "#FFCB6B15",
+        "warning.border": "#FFCB6B80",
         "syntax": {
           "comment": { "color": "#627097", "font_style": "italic" },
           "comment.doc": { "color": "#8792B2", "font_style": "italic" },
           "string": { "color": "#C3E88D" },
           "string.regex": { "color": "#89DDFF" },
-          "number": { "color": "#F78C6C" },
-          "boolean": { "color": "#F78C6C" },
+          "number": { "color": "#F4B06A" },
+          "boolean": { "color": "#F4B06A" },
           "keyword": { "color": "#C792EA", "font_weight": 700 },
           "keyword.operator": { "color": "#89DDFF" },
           "function": { "color": "#82AAFF" },
@@ -75,11 +81,11 @@
           "type.builtin": { "color": "#FFCB6B" },
           "constructor": { "color": "#FFCB6B", "font_weight": 700 },
           "variable": { "color": "#CBD2E7" },
-          "variable.parameter": { "color": "#F78C6C" },
+          "variable.parameter": { "color": "#F4B06A" },
           "property": { "color": "#B2CCD6" },
-          "constant": { "color": "#FF5370" },
-          "constant.builtin": { "color": "#FF5370" },
-          "namespace": { "color": "#FF5370" },
+          "constant": { "color": "#C792EA" },
+          "constant.builtin": { "color": "#C792EA" },
+          "namespace": { "color": "#B2CCD6" },
           "punctuation": { "color": "#89DDFF" }
         },
         "terminal": {
@@ -106,9 +112,9 @@
         },
         "players": [
           {
-            "cursor": "#FF5370",
-            "background": "#FF537040",
-            "selection": "#FF537020"
+            "cursor": "#FFCB6B",
+            "background": "#FFCB6B40",
+            "selection": "#FFCB6B20"
           },
           {
             "cursor": "#C3E88D",
