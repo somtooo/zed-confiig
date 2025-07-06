@@ -2126,8 +2126,8 @@
           "#eb9ab766"
         ],
         "background.appearance": "blurred",
-        "border": "#00000000",
-        "border.variant": "#00000000",
+        "border": "#2A344F80",
+        "border.variant": "#1C243980",
         "border.focused": "#b4befe",
         "border.selected": "#cba6f7",
         "border.transparent": "#a6e3a1",
