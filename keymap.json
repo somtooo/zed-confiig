@@ -36,7 +36,8 @@
       "ctrl-f": "buffer_search::Deploy", // vim default: page down
       "ctrl-o": "workspace::Open", // vim default: go back
       "ctrl-s": "workspace::Save", // vim default: show signature
-      "ctrl-a": "editor::SelectAll" // vim default: increment
+      "ctrl-a": "editor::SelectAll", // vim default: increment
+      "space ctrl-w": ["pane::CloseActiveItem", { "close_pinned": false }]
     }
   },
   {
@@ -64,9 +65,9 @@
 
       // File Operations
       "space f /": "project_search::ToggleFocus",
-      "space f y y": "editor::CopyPath",
+      "space f y y": "workspace::CopyPath",
       "space f R": "editor::Rename",
-      "space f r": "file_finder::Toggle",
+      "space f r": "tab_switcher::ToggleAll",
       "space f s": "pane::RevealInProjectPanel",
 
       // Git
@@ -92,13 +93,6 @@
       "space R a": "editor::ToggleCodeActions",
       "space R i": "editor::OrganizeImports",
       "space R c": "editor::Format"
-    }
-  },
-
-  {
-    "context": "Pane",
-    "bindings": {
-      "space b d": ["pane::CloseActiveItem", { "close_pinned": false }]
     }
   }
 ]

@@ -7,18 +7,29 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "button": false,
+    "dock": "right"
+  },
   "show_edit_predictions": false,
   "project_panel": {
+    "button": false,
     "hide_gitignore": false,
-    "dock": "left"
+    "dock": "left",
+    "sticky_scroll": false
   },
+  "auto_update": false,
   "agent": {
+    "button": false,
+    "always_allow_tool_actions": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
     "model_parameters": [],
-    "default_profile": "write"
+    "default_profile": "ask"
   },
   "vim_mode": true,
-  "use_system_clipboard": true,
-  "toggle_relative_line_numbers": true,
   "base_keymap": "JetBrains",
   "relative_line_numbers": true,
   "ui_font_size": 14,
@@ -34,5 +45,33 @@
     "inline_blame": {
       "enabled": false
     }
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "autosave": "on_focus_change",
+  "tab_bar": {
+    "show": false
+  },
+  "title_bar": {
+    "show_sign_in": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "toolbar": {
+    "quick_actions": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "debugger": {
+    "button": false
   }
 }
