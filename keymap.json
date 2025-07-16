@@ -36,8 +36,7 @@
       "ctrl-f": "buffer_search::Deploy", // vim default: page down
       "ctrl-o": "workspace::Open", // vim default: go back
       "ctrl-s": "workspace::Save", // vim default: show signature
-      "ctrl-a": "editor::SelectAll", // vim default: increment
-      "space ctrl-w": ["pane::CloseActiveItem", { "close_pinned": false }]
+      "ctrl-a": "editor::SelectAll" // vim default: increment
     }
   },
   {
