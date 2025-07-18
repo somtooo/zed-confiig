@@ -32,7 +32,7 @@
   "vim_mode": true,
   "base_keymap": "JetBrains",
   "relative_line_numbers": true,
-  "ui_font_size": 14,
+  "ui_font_size": 15,
   "buffer_font_size": 13.5,
   "ui_font_family": "Inter",
   "buffer_font_family": "JetBrainsMono Nerd Font",
